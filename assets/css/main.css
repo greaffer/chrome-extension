@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ded807;
+}
+
+.container {
+  min-width: 500px;
+  max-width: 400px;
+  width: 100%;
+  margin: 2em auto;
+  padding: 1em;
+  text-align: center;
+}
+.container-btn {
+  display: flex;
+  justify-content: space-evenly;
+}
+.container input {
+  width: 100%;
+  border: none;
+  border-radius: 0.1em;
+  padding: 1em;
+  font-size: 2rem;
+  outline: none;
+  margin-bottom: 1em;
+  background: #2b027f;
+  color: #fff;
+  text-transform: capitalize;
+}
+.container button {
+  text-transform: uppercase;
+  font-size: 2rem;
+  padding: 0.4em 0.8em;
+  margin-bottom: 1em;
+  font-weight: bold;
+  border-radius: 0;
+  border: none;
+  background: #1a014d;
+  color: #ded807;
+  cursor: pointer;
+}
+.container ul {
+  width: 100%;
+  text-align: left;
+}
+.container ul li {
+  list-style: none;
+  margin-bottom: 1em;
+}
+.container ul a {
+  color: #1a014d;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  transition: color 0.25s linear;
+}
+.container ul a:hover {
+  color: #dfeee4;
+}
+
+/*# sourceMappingURL=main.css.map */
